@@ -5,6 +5,7 @@ import GameBoard from './Components/Gameboard.jsx';
 import Log from './Components/Log.jsx';
 import GameOver from './Components/GameOver.jsx'
 import { WINNING_COMBINATIONS } from './winning-combinations.js';
+import Footer from './Components/Foote.jsx';
 
 const PLAYERS = {
   X: 'Player 1',
@@ -125,6 +126,7 @@ console.log(gameTurns);
         <GameBoard onSelectSquare={handleSelectSquare} board={gameBoard} />
       </div>
       <Log turns={gameTurns} />
+      <Footer />
     </main>
   );
 }

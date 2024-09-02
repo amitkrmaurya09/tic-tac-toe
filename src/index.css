@@ -405,3 +405,39 @@ ol {
   
   
 }
+.footer {
+  background-color: rgba(40, 38, 23, 0.95);
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-link {
+  color: #1e90ff; /* LinkedIn color */
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
